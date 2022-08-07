@@ -18,7 +18,7 @@
                        :align-items :center
                        :background-color :white}}
    [:> rn/Text "Make tailwind work"]
-   [text "hello"]])
+   [:f> text "hello"]])
 
 (defn start
   {:dev/after-load true}

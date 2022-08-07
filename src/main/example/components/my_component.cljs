@@ -4,5 +4,5 @@
 
 (defn text [text]
   (let [tw tailwind/useTailwind]
-  [:> rn/View (:style (tw "flex-1"))
+  [:> rn/View (:style (tw "flex-1 bg-red-500"))
    [:> rn/Text text]]))
