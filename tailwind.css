@@ -1,0 +1,32 @@
+.static {
+  position: static
+}
+
+.fixed {
+  position: fixed
+}
+
+.relative {
+  position: relative
+}
+
+.block {
+  display: block
+}
+
+.table {
+  display: table
+}
+
+.contents {
+  display: contents
+}
+
+.capitalize {
+  text-transform: capitalize
+}
+
+.ordinal {
+  --tw-ordinal: ordinal;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)
+}

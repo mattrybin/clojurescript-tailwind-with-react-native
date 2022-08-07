@@ -1,0 +1,43 @@
+{
+	"static": {
+		"style": {
+			"position": "static"
+		}
+	},
+	"fixed": {
+		"style": {
+			"position": "fixed"
+		}
+	},
+	"relative": {
+		"style": {
+			"position": "relative"
+		}
+	},
+	"block": {
+		"style": {
+			"display": "block"
+		}
+	},
+	"table": {
+		"style": {
+			"display": "table"
+		}
+	},
+	"contents": {
+		"style": {
+			"display": "contents"
+		}
+	},
+	"capitalize": {
+		"style": {
+			"textTransform": "capitalize"
+		}
+	},
+	"ordinal": {
+		"style": {
+			"--tw-ordinal": "ordinal",
+			"fontVariantNumeric": "var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)"
+		}
+	}
+}
