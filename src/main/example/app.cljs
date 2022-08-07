@@ -10,6 +10,8 @@
 
 (def tailwind-json (js/require "../tailwind.json"))
 
+(js/console.log tailwind-json)
+
 (defn root []
   [:>  tailwind/TailwindProvider {:utilities tailwind-json}]
   [:> rn/View {:style {:flex 1

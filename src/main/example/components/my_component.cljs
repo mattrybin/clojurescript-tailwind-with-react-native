@@ -4,5 +4,6 @@
 
 (defn text [text]
   (let [tw tailwind/useTailwind]
-  [:> rn/View (:style (tw "flex-1 bg-red-500"))
-   [:> rn/Text text]]))
+  (js/console.log (tw "mt-12"))
+  [:> rn/View (:style (tw "flex-1 mt-12 pb-12 bg-red-500"))
+   [:> rn/Text "hello"]]))

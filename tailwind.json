@@ -14,6 +14,11 @@
 			"position": "relative"
 		}
 	},
+	"mt-12": {
+		"style": {
+			"marginTop": 48
+		}
+	},
 	"block": {
 		"style": {
 			"display": "block"
@@ -33,6 +38,16 @@
 		"style": {
 			"--tw-bg-opacity": 1,
 			"backgroundColor": "rgb(239 68 68 / var(--tw-bg-opacity))"
+		}
+	},
+	"pt-12": {
+		"style": {
+			"paddingTop": 48
+		}
+	},
+	"pb-12": {
+		"style": {
+			"paddingBottom": 48
 		}
 	},
 	"capitalize": {
