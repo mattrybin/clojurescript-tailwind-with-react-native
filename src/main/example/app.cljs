@@ -13,14 +13,14 @@
 (js/console.log tailwind-json)
 
 (defn root []
-  [:>  tailwind/TailwindProvider {:utilities tailwind-json}]
-  [:> rn/View {:style {:flex 1
-                       :padding-vertical 50
-                       :justify-content :center
-                       :align-items :center
-                       :background-color :white}}
-   [:> rn/Text "Make tailwind work"]
-   [:f> text "hello"]])
+  [:> tailwind/TailwindProvider {:utilities tailwind-json}
+   [:> rn/View {:style {:flex 1
+                        :padding-vertical 50
+                        :justify-content :center
+                        :align-items :center
+                        :background-color :white}}
+    [:> rn/Text "Make tailwind work"]
+    [:f> text "hello"]]])
 
 (defn start
   {:dev/after-load true}
